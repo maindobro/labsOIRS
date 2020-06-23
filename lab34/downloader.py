@@ -6,7 +6,7 @@ from os.path import isfile, join
 import tarfile
 import urllib.request
 
-pokemons_url = "https://github.com/SVolkoff/pokemon-classifier"
+pokemons_url = "https://github.com/kjaisingh/pokemon-classifier/tree/master/dataset"
 pokemons_name = "pokemons.tgz"
 train_dir = "data"
 
