@@ -15,7 +15,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
-
+from matplotlib import pyplot as plt
 
 from features import  fd_haralick, fd_4
 
@@ -105,6 +105,7 @@ fig.suptitle('Machine Learning algorithm comparison')
 ax = fig.add_subplot(111)
 pyplot.boxplot(results)
 ax.set_xticklabels(names)
+plt.savefig('plot.png')
 pyplot.show()
 
 # -----------------------------------
